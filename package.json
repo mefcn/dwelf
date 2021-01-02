@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "",
+    "lint": "npx eslint --ext .js src/",
     "build": "npx webpack",
     "start": "npx webpack-dev-server"
   },
