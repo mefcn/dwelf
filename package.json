@@ -4,7 +4,9 @@
   "description": "Graph API",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "test": "",
+    "build": "npx webpack",
+    "start": "npx webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,11 @@
   },
   "devDependencies": {
     "config": "^3.3.3",
-    "eslint": "^7.16.0"
+    "config-webpack": "^1.0.4",
+    "copy-webpack-plugin": "^7.0.0",
+    "eslint": "^7.16.0",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.1"
   }
 }
